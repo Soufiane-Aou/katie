@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jenos.forkatie">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.ColorActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Activities.Travelling"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activities.FamilyActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activities.DrinksActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activities.FruitActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activities.MealsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activities.WordsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activities.TimeActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activities.DaysActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activities.NumbersActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activities.GreetingActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
